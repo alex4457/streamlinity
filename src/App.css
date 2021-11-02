@@ -1,0 +1,56 @@
+
+.hide{
+  display: none;
+}
+
+li:hover{
+    list-style: none;
+    display: inline-block;
+    border: 1px black solid;
+    padding: 3px;
+}
+
+li{
+  cursor: pointer;
+}
+
+th, tr, td{
+  border: 1px solid black;
+  height: 50px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.list {
+
+  margin-left: 50px;
+  width: 25%;
+}
+
+.table {
+  margin-left: 50px;
+  width: 60%;
+}
+
+thead tr th:nth-child(1) {
+  width: 100px;
+}
+
+thead tr th:nth-child(2) {
+  width: 400px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: gray;
+
+}
+
+.menu {
+  width: 15%;
+}
